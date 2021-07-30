@@ -1,0 +1,14 @@
+label {
+  display: block;
+}
+
+.mainForm {
+  background-color: pink;
+  padding: 5rem;
+  position: absolute;
+	left: 50%;
+  transform: translateX(-50%);
+
+  	
+	margin: auto;
+}
