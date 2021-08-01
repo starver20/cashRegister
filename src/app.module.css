@@ -1,14 +1,69 @@
-label {
-  display: block;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: blanchedalmond;
 }
 
 .mainForm {
   background-color: pink;
+  width: 30rem;
   padding: 5rem;
-  position: absolute;
-	left: 50%;
-  transform: translateX(-50%);
+  margin: 0 auto;
+  text-align: center;
+}
 
-  	
-	margin: auto;
+label {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+input {
+  width: 100%;
+  display: block;
+  height: 2rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  margin: 0.5rem 0 2rem 0;
+  outline: none;
+  border: none;
+}
+
+button {
+  display: block;
+  margin: 1rem auto 4rem;
+  width: 6rem;
+  padding: 0.8rem;
+  border: none;
+  background-color: burlywood;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  word-wrap: break-word;
+  padding: 0.7rem;
+  width: 2rem;
+}
+
+table {
+  width: 100%;
+  /* table-layout: fixed; */
+  white-space: nowrap;
+  margin-top: 3rem;
+}
+
+.visible {
+  display: none;
 }
