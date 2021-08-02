@@ -86,7 +86,7 @@ function App() {
           <h1>Cash Register Manager</h1>
           <p>
             Enter bill and cash amount to find how to pay the return amount with
-            minimum notes .
+            minimum notes.
           </p>
           <div className="bill">
             <form>
