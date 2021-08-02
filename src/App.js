@@ -83,6 +83,11 @@ function App() {
     <div className={classes.background}>
       <div className="App">
         <div className={classes.mainForm}>
+          <h1>Cash Register Manager</h1>
+          <p>
+            Enter bill and cash amount to find how to pay the return amount with
+            minimum notes .
+          </p>
           <div className="bill">
             <form>
               <label htmlFor="bill">Bill Amount</label>
